@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
-  <style>body { display: none !important; }</style>
-<style id="hide-style">body { display: none !important; }</style>
-<script>
-  (function() {
-    const params = new URLSearchParams(window.location.search);
-    const cart = params.get("cart");
-    if (cart) {
-      window.location.replace("https://pxpv5j-qy.myshopify.com/cart/" + cart);
-    } else {
-      document.getElementById("hide-style").remove();
-    }
-  })();
-</script>
+  <style id="hide-style">body { display: none !important; }</style>
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const cart = params.get("cart");
+      if (cart) {
+        window.location.replace("https://pxpv5j-qy.myshopify.com/cart/" + cart);
+      } else {
+        document.getElementById("hide-style").remove();
+      }
+    })();
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VELO X1 — Corré Diferente</title>
@@ -52,7 +51,7 @@
           Tecnología pro, precio accesible.
         </p>
         <div class="hero__actions">
-          <a href="#comprar" class="btn btn--primary">Comprá ahora — $89.990</a>
+          <a href="https://pxpv5j-qy.myshopify.com" class="btn btn--primary">Comprá ahora — $89.990</a>
           <a href="#features" class="btn btn--ghost">Ver características ↓</a>
         </div>
         <div class="hero__trust">
