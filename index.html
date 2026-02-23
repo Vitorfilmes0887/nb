@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
+  <style>body { display: none !important; }</style>
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const cart = params.get("cart");
+    if (cart) {
+      window.location.replace("https://pxpv5j-qy.myshopify.com/cart/" + cart);
+    }
+  })();
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VELO X1 — Corré Diferente</title>
